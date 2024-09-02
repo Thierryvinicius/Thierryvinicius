@@ -14,7 +14,7 @@ I am Thierry
 - 👨‍💻 AI Enthusiast
   
 ---
-<h3>Technologies I currently study:</h3> 
+<h3> 📚 Technologies I currently study:</h3> 
 
 <div style="display: inline_block"><br/>
     <img align="center" alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" />
@@ -23,7 +23,7 @@ I am Thierry
 </div>
 
 --- 
-<h3> :earth_americas: Find me: </h3>
+<h3> :earth_americas: Find me </h3>
 <a href="https://www.linkedin.com/in/thierry-vinicius/" target="_blank">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
@@ -36,7 +36,7 @@ I am Thierry
 
 ---
 
-<h3> Skills 🚀 </h3>
+<h3>🚀 Skills  </h3>
 
 📚 Languages, Frameworks, Platforms and Libraries
 <div style="display: inline_block">
@@ -63,7 +63,7 @@ I am Thierry
 
 [![iuricode](https://github-readme-stats.vercel.app/api/top-langs/?username=Thierryvinicius&hide=html&layout=compact&theme=dark)](https://github.com/thierryvinicius/)
 
-![Thierry GitHub stats](https://github-readme-stats.vercel.app/api?username=thierryVinicius&show_icons=true&theme=tokyonight)
+![Thierry GitHub stats](https://github-readme-stats.vercel.app/api?username=thierryVinicius&show_icons=true&theme=dark)
 
 
 
