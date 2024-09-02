@@ -5,10 +5,6 @@
 ### Hey there 👋
 I am Thierry
 
-<a href="https://www.linkedin.com/in/thierry-vinicius/" target="_blank">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
 - 🎓 Graduating in Computer Engineering - UCDB
 - 💻 I am working as an intern in web development
 - 👨‍💻 AI Enthusiast
