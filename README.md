@@ -13,10 +13,10 @@ I am Thierry
 <h3> 📚 Technologies I currently study:</h3> 
 
 <div style="display: inline_block"><br/>
-    <img align="center" alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" />
-    <img align="center" alt="JavaScript" src="https://img.shields.io/badge/javascript-%23F7DF1C.svg?style=for-the-badge&logo=javascript&logoColor=black" />
-    <img align="center" alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
+    <img align="center" alt="Node.js" src="https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+    <img align="center" alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
 </div>
+
 
 --- 
 <h3> :earth_americas: Find me </h3>
