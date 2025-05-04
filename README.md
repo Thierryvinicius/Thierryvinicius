@@ -13,12 +13,9 @@ I am Thierry
 <h3> 📚 Technologies I currently study:</h3> 
 
 <div style="display: inline_block"><br/>
-    <img align="center" alt="Node.js" src="https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-    <img align="center" alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
-    <img align="center" alt="Express" src="https://img.shields.io/badge/express-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white" />
+    <img align="center" alt="Laravel" src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" />
     <img align="center" alt="MongoDB" src="https://img.shields.io/badge/mongodb-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white" />
 </div>
-
 
 --- 
 <h3> :earth_americas: Find me </h3>
@@ -37,13 +34,13 @@ I am Thierry
 <h3>🚀 Skills  </h3>
 
 📚 Languages, Frameworks, Platforms and Libraries
-<div style="display: inline_block">
-    <img align="center" alt="Python" src="https://img.shields.io/badge/python-%2336D7B7.svg?style=for-the-badge&logo=python&logoColor=white" />
-    <img align="center" alt="PyTorch" src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white" />
-    <img align="center" alt="OpenCV" src="https://img.shields.io/badge/OpenCV-%2300398D.svg?style=for-the-badge&logo=opencv&logoColor=white" />
-    <img align="center" alt="Java" src="https://img.shields.io/badge/Java-%23F80000.svg?style=for-the-badge&logo=java&logoColor=white" />
-    <img align="center" alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
+<div style="display: inline_block"><br/>
+    <img align="center" alt="PHP" src="https://img.shields.io/badge/PHP-777BB4.svg?style=for-the-badge&logo=php&logoColor=white" />
+    <img align="center" alt="Slim Framework" src="https://img.shields.io/badge/Slim-Framework-green.svg?style=for-the-badge" />
+    <img align="center" alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
+    <img align="center" alt="SQL" src="https://img.shields.io/badge/SQL-4479A1.svg?style=for-the-badge&logo=sqlite&logoColor=white" />
 </div>
+
 <br>
 
 💻 Operating System
