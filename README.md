@@ -6,8 +6,7 @@
 I am Thierry
 
 - 🎓 Graduating in Computer Engineering - UCDB
-- 💻 I am working as an intern in web development
-- 👨‍💻 AI Enthusiast
+- 💻 I am working as a web developer using technologies such as Slim Framework
   
 ---
 <h3> 📚 Technologies I currently study:</h3> 
