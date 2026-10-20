@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1160" viewBox="0 0 1000 1160" role="img" aria-labelledby="t d">
   <title id="t">Thierry Vinicius — Software Engineer</title>
-  <desc id="d">A single stylized terminal session (illustrative, not executable). Banner: Thierry Vinicius, software engineer — backend systems, data models and the interfaces on top of them. about: builds backend services and data layers with Python and FastAPI and the Vue.js interfaces on top; relational schemas in PostgreSQL, connected data in Neo4j. stack --current: Vue.js client, REST/JSON, FastAPI API, PostgreSQL via SQL, Neo4j via Cypher, on Docker, AWS, Linux and Git. lab --experimental: Bun, Elysia, TypeScript. interests: architecture, data modeling, graphs, automation, APIs, applied AI, data processing.</desc>
+  <desc id="d">A single stylized terminal session (illustrative, not executable). Banner: Thierry Vinicius, software engineer. about: builds backend services and data layers with Python and FastAPI and the Vue.js interfaces on top; relational schemas in PostgreSQL, connected data in Neo4j. stack --current: Vue.js client, REST/JSON, FastAPI API, PostgreSQL via SQL, Neo4j via Cypher, on Docker, AWS, Linux and Git. lab --experimental: Bun, Elysia, TypeScript. interests: architecture, data modeling, graphs, automation, APIs, applied AI, data processing.</desc>
 
   <defs>
     <clipPath id="win"><rect width="1000" height="1160" rx="14"/></clipPath>
@@ -139,13 +139,11 @@
     </g>
 
     <g>
-      <rect x="40" y="78" width="186" height="26" rx="13" fill="#0B1222" stroke="#1E2A44"/>
-      <circle cx="58" cy="91" r="3.5" fill="#22D3EE"/>
-      <text class="mono" x="70" y="95.5" font-size="12" fill="#9FB3D1" letter-spacing=".08em">SOFTWARE ENGINEER</text>
-      <text class="sans" x="38" y="172" font-size="56" font-weight="700" fill="url(#nameFill)" letter-spacing="-.02em">Thierry Vinicius</text>
-      <rect x="40" y="192" width="220" height="2" fill="url(#rule)"/>
-      <text class="sans" x="40" y="230" font-size="19" fill="#A9B4C6">Backend systems, data models</text>
-      <text class="sans" x="40" y="256" font-size="19" fill="#A9B4C6">and the interfaces on top of them.</text>
+      <rect x="40" y="118" width="182" height="26" rx="13" fill="#0B1222" stroke="#1E2A44"/>
+      <circle cx="58" cy="131" r="3.5" fill="#22D3EE"/>
+      <text class="mono" x="70" y="131" dominant-baseline="central" font-size="12" fill="#9FB3D1" textLength="136" lengthAdjust="spacingAndGlyphs">SOFTWARE ENGINEER</text>
+      <text class="sans" x="38" y="210" font-size="56" font-weight="700" fill="url(#nameFill)" letter-spacing="-.02em">Thierry Vinicius</text>
+      <rect x="40" y="230" width="220" height="2" fill="url(#rule)"/>
     </g>
 
     <line x1="40" y1="316" x2="960" y2="316" stroke="#111A2E"/>

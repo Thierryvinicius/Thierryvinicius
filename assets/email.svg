@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="76" viewBox="0 0 480 76" role="img" aria-labelledby="t">
+  <title id="t">Email — thierryv3011@gmail.com</title>
+  <style>
+    .mono { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', 'Cascadia Code', Menlo, Consolas, 'Liberation Mono', monospace; }
+  </style>
+  <rect x=".5" y=".5" width="479" height="75" rx="12" fill="#070B14" stroke="#1E2A44"/>
+  <rect x="1" y="14" width="2" height="48" rx="1" fill="#22D3EE"/>
+  <!-- icon -->
+  <rect x="24" y="20" width="36" height="36" rx="8" fill="#0C1426" stroke="#1B5A6B"/>
+  <rect x="32" y="30" width="20" height="15" rx="2" fill="none" stroke="#22D3EE" stroke-width="1.6"/>
+  <path d="M33 31.5l9 6.5 9-6.5" fill="none" stroke="#22D3EE" stroke-width="1.6" stroke-linejoin="round"/>
+  <!-- text -->
+  <text class="mono" x="78" y="33" font-size="11" fill="#56647D" letter-spacing=".12em">EMAIL</text>
+  <text class="mono" x="78" y="54" font-size="16" fill="#E6EDF3">thierryv3011@gmail.com</text>
+  <text class="mono" x="452" y="45" font-size="18" fill="#22D3EE" text-anchor="end">↗</text>
+</svg>
