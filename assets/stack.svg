@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img" aria-labelledby="stack-title stack-desc">
+  <title id="stack-title">Current stack</title>
+  <desc id="stack-desc">System diagram of the current stack: a Vue.js client talks REST/JSON to a FastAPI service written in Python, which persists relational data in PostgreSQL via SQL and connected data in Neo4j via Cypher. Everything runs on Docker, AWS and Linux, versioned with Git.</desc>
+
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#0F172A" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="apiGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="1000" height="400" rx="16"/></clipPath>
+    <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0L8 4L0 8z" fill="#3B82F6"/>
+    </marker>
+    <path id="e1" d="M262 200 H378"/>
+    <path id="e2" d="M622 200 C 680 200, 680 135, 738 135"/>
+    <path id="e3" d="M622 200 C 680 200, 680 265, 738 265"/>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', 'Cascadia Code', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .box  { fill: #0A1020; stroke: #1E2A44; stroke-width: 1; }
+    .kind { font-size: 11px; fill: #56647D; letter-spacing: .12em; }
+    .name { font-size: 22px; font-weight: 600; fill: #E6EDF3; }
+    .meta { font-size: 12px; fill: #7D8BA3; }
+    .wire { fill: none; stroke: #2B4C8C; stroke-width: 1.4; }
+    .proto { font-size: 11px; fill: #60A5FA; letter-spacing: .06em; }
+    @media (prefers-reduced-motion: reduce) { .pulse { display: none; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="400" fill="#05070D"/>
+    <rect width="1000" height="400" fill="url(#grid)"/>
+
+    <!-- header -->
+    <text class="mono" x="40" y="46" font-size="12" fill="#22D3EE" letter-spacing=".14em">01 — CURRENT STACK</text>
+    <text class="mono" x="960" y="46" font-size="12" fill="#3A4763" text-anchor="end">what I build with day to day</text>
+    <line x1="40" y1="62" x2="960" y2="62" stroke="#111A2E"/>
+
+    <!-- wires -->
+    <use href="#e1" class="wire" marker-end="url(#arrow)"/>
+    <use href="#e2" class="wire" marker-end="url(#arrow)"/>
+    <use href="#e3" class="wire" marker-end="url(#arrow)"/>
+    <text class="mono proto" x="320" y="188" text-anchor="middle">REST · JSON</text>
+    <text class="mono proto" x="700" y="124" text-anchor="middle">SQL</text>
+    <text class="mono proto" x="700" y="290" text-anchor="middle">CYPHER</text>
+
+    <g class="pulse">
+      <circle r="2.6" fill="#22D3EE"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath href="#e1"/></animateMotion></circle>
+      <circle r="2.4" fill="#60A5FA"><animateMotion dur="3.2s" begin=".8s" repeatCount="indefinite"><mpath href="#e2"/></animateMotion></circle>
+      <circle r="2.4" fill="#A78BFA"><animateMotion dur="3.2s" begin="1.8s" repeatCount="indefinite"><mpath href="#e3"/></animateMotion></circle>
+    </g>
+
+    <!-- client -->
+    <g>
+      <rect class="box" x="40" y="145" width="222" height="110" rx="10"/>
+      <text class="mono kind" x="62" y="174">CLIENT</text>
+      <circle cx="238" cy="170" r="4" fill="#42B883"/>
+      <text class="sans name" x="62" y="208">Vue.js</text>
+      <text class="mono meta" x="62" y="234">web interfaces</text>
+    </g>
+
+    <!-- api (center of gravity) -->
+    <g>
+      <ellipse cx="500" cy="200" rx="190" ry="110" fill="url(#apiGlow)"/>
+      <rect x="378" y="135" width="244" height="130" rx="10" fill="#0A1324" stroke="#22D3EE" stroke-opacity=".55"/>
+      <text class="mono kind" x="400" y="164" style="fill:#22D3EE">API</text>
+      <circle cx="598" cy="160" r="4" fill="#009688"/>
+      <text class="sans name" x="400" y="200" font-size="26">FastAPI</text>
+      <text class="mono meta" x="400" y="226">python · REST services</text>
+      <text class="mono meta" x="400" y="246" fill="#4B5A75">pydantic models · openapi</text>
+    </g>
+
+    <!-- postgres -->
+    <g>
+      <rect class="box" x="738" y="90" width="222" height="92" rx="10"/>
+      <text class="mono kind" x="760" y="117">RELATIONAL</text>
+      <circle cx="936" cy="113" r="4" fill="#4169E1"/>
+      <text class="sans name" x="760" y="148" font-size="20">PostgreSQL</text>
+      <text class="mono meta" x="760" y="169">schemas · sql</text>
+    </g>
+
+    <!-- neo4j -->
+    <g>
+      <rect class="box" x="738" y="220" width="222" height="92" rx="10"/>
+      <text class="mono kind" x="760" y="247">GRAPH</text>
+      <circle cx="936" cy="243" r="4" fill="#018BFF"/>
+      <text class="sans name" x="760" y="278" font-size="20">Neo4j</text>
+      <text class="mono meta" x="760" y="299">nodes · relationships</text>
+    </g>
+
+    <!-- infra layer -->
+    <g class="mono">
+      <rect x="40" y="334" width="920" height="40" rx="8" fill="#070C18" stroke="#1E2A44" stroke-dasharray="4 4"/>
+      <text x="62" y="359" font-size="11" fill="#56647D" letter-spacing=".12em">INFRA</text>
+      <text x="140" y="359" font-size="13" fill="#9FB3D1">docker <tspan fill="#2A3A5C">/</tspan> aws <tspan fill="#2A3A5C">/</tspan> linux <tspan fill="#2A3A5C">/</tspan> git</text>
+      <text x="938" y="359" font-size="11" fill="#3A4763" text-anchor="end">runs on · ships with</text>
+    </g>
+  </g>
+
+  <rect x=".5" y=".5" width="999" height="399" rx="15.5" fill="none" stroke="#1B2436"/>
+</svg>
