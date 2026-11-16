@@ -4,7 +4,7 @@
 
 # Thierry Vinicius
 
-**Engenheiro de Software · Backend e dados**
+**Engenheiro de Computação · Backend e Dados**
 
 <a href="https://www.linkedin.com/in/thierry-vinicius/"><img src="https://img.shields.io/badge/LinkedIn-3B82F6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:thierry.vinicius@outlook.com"><img src="https://img.shields.io/badge/E--mail-22D3EE?style=for-the-badge&logo=microsoftoutlook&logoColor=05070D" alt="E-mail" /></a>
@@ -16,9 +16,9 @@
 
 ## Sobre mim
 
-Eu começo pelos dados. Antes de abrir o editor, quero saber quais são as entidades, como elas se relacionam e o que vai ser consultado com mais frequência. Se a resposta é "tabelas", vai de **PostgreSQL**. Se é "tudo está ligado a tudo", vai de grafo em **Neo4j**. O resto (a API em **FastAPI**, a tela em **Vue.js**) sai bem mais fácil depois disso.
+Sou engenheiro de computação e atuo com **backend e dados**: APIs em **Python (FastAPI)**, modelagem relacional em **PostgreSQL** e dados conectados em **Neo4j**.
 
-Sou bacharel em Engenharia de Computação, de Campo Grande, MS. Já passei por compiladores, sistemas operacionais e até escrevi um plugin Kotlin para a IDE só porque cansei de caçar template na mão.
+Sou curioso e cheio de ideias, e por isso estudo bastante por conta própria, além da faculdade, principalmente IA, Deep Learning, Estatística e System Design.
 
 | | |
 | --- | --- |
@@ -79,23 +79,6 @@ Tudo em contêiner, rodando em Linux, com Git no dia a dia.
 
 </details>
 
-<details>
-<summary><b>🗺️ Como as peças se conectam</b></summary>
-<br />
-
-```mermaid
-flowchart LR
-    A[Vue.js] -->|REST / JSON| B[FastAPI]
-    B --> C[(PostgreSQL)]
-    B --> D[(Neo4j)]
-    style A fill:#3B82F6,color:#fff,stroke:#05070D
-    style B fill:#22D3EE,color:#05070D,stroke:#05070D
-    style C fill:#A78BFA,color:#fff,stroke:#05070D
-    style D fill:#A78BFA,color:#fff,stroke:#05070D
-```
-
-</details>
-
 ## Projetos
 
 <table>
@@ -145,8 +128,6 @@ flowchart LR
 <br /><br />
 
 <a href="https://github.com/Thierryvinicius?tab=repositories"><img src="https://img.shields.io/github/followers/Thierryvinicius?style=for-the-badge&logo=github&color=3B82F6&labelColor=05070D" alt="Seguidores" /></a>
-<a href="https://github.com/Thierryvinicius?tab=repositories"><img src="https://img.shields.io/github/last-commit/Thierryvinicius/twig-path-resolver?style=for-the-badge&label=%C3%BAltimo%20commit&color=22D3EE&labelColor=05070D" alt="Último commit" /></a>
-
 </div>
 
 ## Contato
